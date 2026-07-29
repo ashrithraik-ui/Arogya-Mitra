@@ -1,0 +1,9 @@
+{
+  "appId": "com.arogyamitra.app",
+  "appName": "ArogyaMitra AI",
+  "webDir": "dist/public",
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  }
+}
