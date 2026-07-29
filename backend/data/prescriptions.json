@@ -1,0 +1,59 @@
+[
+  {
+    "consultation_id": 1,
+    "doctor_id": 1,
+    "patient_id": 2,
+    "diagnosis": "fbsj",
+    "medicines": [
+      {
+        "name": "jbjndsjnj",
+        "dose": "90",
+        "frequency": "ajjjedjd",
+        "duration": "8 days"
+      }
+    ],
+    "instructions": "nothing",
+    "follow_up_date": null,
+    "doctor_name": "Dr. Priya Sharma",
+    "id": 1,
+    "created_at": "2026-07-27T21:19:06.988792+00:00"
+  },
+  {
+    "consultation_id": 1,
+    "doctor_id": 1,
+    "patient_id": 2,
+    "diagnosis": "fbsj",
+    "medicines": [
+      {
+        "name": "jbjndsjnj",
+        "dose": "90",
+        "frequency": "ajjjedjd",
+        "duration": "8 days"
+      }
+    ],
+    "instructions": "gjgjhjhb",
+    "follow_up_date": null,
+    "doctor_name": "Dr. Priya Sharma",
+    "id": 2,
+    "created_at": "2026-07-27T21:20:10.985104+00:00"
+  },
+  {
+    "consultation_id": 3,
+    "doctor_id": 1,
+    "patient_id": 1,
+    "diagnosis": "fbsj",
+    "medicines": [
+      {
+        "name": "jbjndsjnj",
+        "dose": "90",
+        "frequency": "ajjjedjd",
+        "duration": "8 days"
+      }
+    ],
+    "instructions": "hsdugdkjh",
+    "follow_up_date": null,
+    "doctor_name": "Dr. Priya Sharma",
+    "id": 3,
+    "created_at": "2026-07-27T21:20:56.009887+00:00"
+  }
+]

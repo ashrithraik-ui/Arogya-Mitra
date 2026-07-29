@@ -1,0 +1,194 @@
+[
+  {
+    "patient_id": 2,
+    "event_type": "CONSULTATION",
+    "title": "Consultation Started & Forwarded to Doctor",
+    "description": "Patient described: i have cold",
+    "consultation_id": 1,
+    "id": 1,
+    "created_at": "2026-07-27T19:53:56.342699+00:00"
+  },
+  {
+    "patient_id": 2,
+    "event_type": "DOCTOR_NOTE",
+    "title": "Doctor Response Received",
+    "description": "just sleep",
+    "consultation_id": 1,
+    "id": 2,
+    "created_at": "2026-07-27T19:57:00.091139+00:00"
+  },
+  {
+    "patient_id": 1,
+    "event_type": "IMAGE",
+    "title": "Medical Image Uploaded",
+    "description": "AI observations: Image uploaded successfully. Awaiting doctor review.... Sent to doctor.",
+    "consultation_id": 2,
+    "id": 3,
+    "created_at": "2026-07-27T19:57:41.933405+00:00"
+  },
+  {
+    "patient_id": 2,
+    "event_type": "CONSULTATION",
+    "title": "Consultation Started & Forwarded to Doctor",
+    "description": "Patient described: i have cold",
+    "consultation_id": 1,
+    "id": 4,
+    "created_at": "2026-07-27T20:05:59.581547+00:00"
+  },
+  {
+    "patient_id": 2,
+    "event_type": "IMAGE",
+    "title": "Medical Image Uploaded",
+    "description": "AI observations: Image uploaded successfully. Awaiting doctor review.... Sent to doctor.",
+    "consultation_id": 1,
+    "id": 5,
+    "created_at": "2026-07-27T20:07:23.853727+00:00"
+  },
+  {
+    "patient_id": 2,
+    "event_type": "DOCTOR_NOTE",
+    "title": "Doctor Response Received",
+    "description": "just sleep\n",
+    "consultation_id": 1,
+    "id": 6,
+    "created_at": "2026-07-27T20:08:09.776515+00:00"
+  },
+  {
+    "patient_id": 1,
+    "event_type": "CONSULTATION",
+    "title": "Consultation Started & Forwarded to Doctor",
+    "description": "Patient described: i have cold",
+    "consultation_id": 2,
+    "id": 7,
+    "created_at": "2026-07-27T20:14:45.782491+00:00"
+  },
+  {
+    "patient_id": 2,
+    "event_type": "DOCTOR_NOTE",
+    "title": "Doctor Response Received",
+    "description": "sleep\n",
+    "consultation_id": 1,
+    "id": 8,
+    "created_at": "2026-07-27T20:16:32.884974+00:00"
+  },
+  {
+    "patient_id": 2,
+    "event_type": "DOCTOR_NOTE",
+    "title": "Response from Dr. Priya Sharma",
+    "description": "sleep\n",
+    "consultation_id": 1,
+    "id": 9,
+    "created_at": "2026-07-27T20:34:08.544997+00:00"
+  },
+  {
+    "patient_id": 1,
+    "event_type": "CONSULTATION",
+    "title": "New Follow-Up Chat Started",
+    "description": "Follow-up Chat Session",
+    "consultation_id": 3,
+    "id": 10,
+    "created_at": "2026-07-27T20:40:45.217091+00:00"
+  },
+  {
+    "patient_id": 1,
+    "event_type": "CONSULTATION",
+    "title": "New Follow-Up Chat Started",
+    "description": "Follow-up Chat Session",
+    "consultation_id": 4,
+    "id": 11,
+    "created_at": "2026-07-27T20:42:33.954474+00:00"
+  },
+  {
+    "patient_id": 1,
+    "event_type": "DOCTOR_NOTE",
+    "title": "Response from Dr. Priya Sharma",
+    "description": "sleep\n",
+    "consultation_id": 3,
+    "id": 12,
+    "created_at": "2026-07-27T20:44:57.562784+00:00"
+  },
+  {
+    "patient_id": 2,
+    "event_type": "PRESCRIPTION",
+    "title": "Prescription from Dr. Priya Sharma",
+    "description": "Diagnosis: fbsj. Medicines: jbjndsjnj. Instructions: nothing",
+    "consultation_id": 1,
+    "prescription_id": 1,
+    "id": 13,
+    "created_at": "2026-07-27T21:19:06.998843+00:00"
+  },
+  {
+    "patient_id": 2,
+    "event_type": "PRESCRIPTION",
+    "title": "Prescription from Dr. Priya Sharma",
+    "description": "Diagnosis: fbsj. Medicines: jbjndsjnj. Instructions: gjgjhjhb",
+    "consultation_id": 1,
+    "prescription_id": 2,
+    "id": 14,
+    "created_at": "2026-07-27T21:20:10.992536+00:00"
+  },
+  {
+    "patient_id": 1,
+    "event_type": "PRESCRIPTION",
+    "title": "Prescription from Dr. Priya Sharma",
+    "description": "Diagnosis: fbsj. Medicines: jbjndsjnj. Instructions: hsdugdkjh",
+    "consultation_id": 3,
+    "prescription_id": 3,
+    "id": 15,
+    "created_at": "2026-07-27T21:20:56.021976+00:00"
+  },
+  {
+    "patient_id": 1,
+    "event_type": "DOCTOR_NOTE",
+    "title": "Response from Dr. Priya Sharma",
+    "description": "Doctor called the consultation.",
+    "consultation_id": 4,
+    "id": 16,
+    "created_at": "2026-07-28T00:33:38.174763+00:00"
+  },
+  {
+    "patient_id": 1,
+    "event_type": "DOCTOR_NOTE",
+    "title": "Response from Dr. Priya Sharma",
+    "description": "Doctor called the consultation.",
+    "consultation_id": 4,
+    "id": 17,
+    "created_at": "2026-07-28T00:33:41.269357+00:00"
+  },
+  {
+    "patient_id": 1,
+    "event_type": "CONSULTATION",
+    "title": "New Follow-Up Chat Started",
+    "description": "Follow-up Chat Session",
+    "consultation_id": 5,
+    "id": 18,
+    "created_at": "2026-07-28T02:03:48.624664+00:00"
+  },
+  {
+    "patient_id": 3,
+    "event_type": "CONSULTATION",
+    "title": "Consultation Started & Forwarded to Doctor",
+    "description": "Patient described: inner health",
+    "consultation_id": 6,
+    "id": 19,
+    "created_at": "2026-07-28T03:51:55.958480+00:00"
+  },
+  {
+    "patient_id": 4,
+    "event_type": "CONSULTATION",
+    "title": "Consultation Started & Forwarded to Doctor",
+    "description": "Patient described: I have fever",
+    "consultation_id": 7,
+    "id": 20,
+    "created_at": "2026-07-28T04:54:41.017902+00:00"
+  },
+  {
+    "patient_id": 1,
+    "event_type": "CONSULTATION",
+    "title": "New Follow-Up Chat Started",
+    "description": "Follow-up Chat Session",
+    "consultation_id": 8,
+    "id": 21,
+    "created_at": "2026-07-28T06:32:14.570944+00:00"
+  }
+]

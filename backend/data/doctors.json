@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Dr. Priya Sharma",
+    "email": "dr.demo@arogya.ai",
+    "phone": "+919876543210",
+    "specialization": "General Physician",
+    "qualification": "MBBS, MD (General Medicine)",
+    "password": "demo1234",
+    "is_available": true,
+    "id": 1
+  },
+  {
+    "name": "Dr. Vikram Patel",
+    "email": "dr.vikram@example.com",
+    "phone": "+919876543211",
+    "specialization": "Cardiologist",
+    "qualification": "MBBS, MD, DM (Cardiology)",
+    "password": "password123",
+    "is_available": true,
+    "id": 2
+  }
+]

@@ -1,0 +1,644 @@
+[
+  {
+    "patient_id": 2,
+    "status": "completed",
+    "chief_complaint": "i have cold",
+    "conversation_history": [
+      {
+        "role": "patient",
+        "message": "i have cold",
+        "timestamp": "2026-07-27T20:05:59.584116+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I'm sorry to hear you're feeling under the weather with a cold, but I'm here to help you get ready for your visit.\n\nI'm sorry to hear that you're not feeling well. To help me understand a bit better, how many days ago did your cold symptoms start?",
+        "timestamp": "2026-07-27T20:06:02.342017+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "10 days",
+        "timestamp": "2026-07-27T20:06:14.280464+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for sharing that, and I know dealing with symptoms for 10 days can feel quite exhausting.\n\nThat's quite a few days to be dealing with a cold, and I'm sure you're ready to feel better. \n\nOn a scale from 1 to 10, with 10 being the most severe you've ever experienced, how would you rate the severity of your symptoms right now?",
+        "timestamp": "2026-07-27T20:06:16.450251+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "9",
+        "timestamp": "2026-07-27T20:06:18.833649+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "It sounds like you're experiencing a really difficult time with these symptoms, and I appreciate you sharing how severe they are. The doctor will definitely want to know this so they can help you feel better soon.\n\nI'm so sorry to hear that your symptoms are feeling that severe at this point—that must be really hard to deal with. \n\nAlong with your cold, are you experiencing any other symptoms, such as a fever, cough, or body aches?",
+        "timestamp": "2026-07-27T20:06:20.917199+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "fever",
+        "timestamp": "2026-07-27T20:06:24.300362+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know about the fever, as I know that can make you feel even more worn out when you're already dealing with a tough cold. The doctor will be very glad to have all of these details to help care for you.\n\nI'm so sorry you're dealing with a fever on top of everything else—that can certainly make you feel even more drained. \n\nTo help the doctor get a complete picture, are you currently taking any medications to help manage your symptoms?",
+        "timestamp": "2026-07-27T20:06:26.128345+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:06:32.543735+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know you aren't taking any medications right now. The doctor will have all of this helpful information ready to discuss with you.\n\nI'm glad you let me know you aren't taking any medications right now. \n\nDo you have any known allergies to medications or anything else that the doctor should be aware of?",
+        "timestamp": "2026-07-27T20:06:34.448295+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:06:37.231477+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know, as that is very helpful information for the doctor to have. I'm getting everything organized for your visit now.\n\nThank you for letting me know you don't have any known allergies. \n\nDo you have any previous medical history, such as any ongoing health conditions, that the doctor should know about?",
+        "timestamp": "2026-07-27T20:06:38.935604+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:06:42.351251+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for sharing that with me, as it helps the doctor get a clearer picture of your overall health. I am organizing all of these details now so they will be ready for your visit.\n\nThank you for sharing that with me. \n\nDoes anyone in your family have any similar health conditions or anything else that might be relevant for the doctor to know about?",
+        "timestamp": "2026-07-27T20:06:43.963926+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:06:48.360234+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for sharing that with me, as it helps the doctor understand your family health history better. I have everything organized and ready to share with the doctor when you see them.\n\nThank you for letting me know. \n\nCould you share a little bit about your lifestyle, such as whether you smoke, drink alcohol, or have any specific dietary habits?",
+        "timestamp": "2026-07-27T20:06:49.791524+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:06:53.750515+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know, and I appreciate you walking through all of these details with me. I have everything organized and ready so the doctor has a complete picture when you see them.\n\nAre you currently taking any medications or do you have any known allergies?",
+        "timestamp": "2026-07-27T20:06:54.802769+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:07:01.773189+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know, and I appreciate you sharing all of this helpful information with me today. Everything is now fully organized so your doctor has a complete picture when you see them.\n\nI have collected all necessary information. Your health summary has been prepared and sent to the doctor for review.",
+        "timestamp": "2026-07-27T20:07:03.707145+00:00"
+      },
+      {
+        "role": "doctor",
+        "message": "sleep\n",
+        "timestamp": "2026-07-27T20:34:08.544494+00:00",
+        "doctor_name": "Dr. Priya Sharma"
+      },
+      {
+        "role": "doctor",
+        "message": "📋 PRESCRIPTION ISSUED BY DR. PRIYA SHARMA\n\nDiagnosis: fbsj\n\nPrescribed Medicines:\n• jbjndsjnj — Dose: 90 | Freq: ajjjedjd | Duration: 8 days\n\nSpecial Instructions: nothing",
+        "timestamp": "2026-07-27T21:19:06.990883+00:00",
+        "doctor_name": "Dr. Priya Sharma"
+      },
+      {
+        "role": "doctor",
+        "message": "📋 PRESCRIPTION ISSUED BY DR. PRIYA SHARMA\n\nDiagnosis: fbsj\n\nPrescribed Medicines:\n• jbjndsjnj — Dose: 90 | Freq: ajjjedjd | Duration: 8 days\n\nSpecial Instructions: gjgjhjhb",
+        "timestamp": "2026-07-27T21:20:10.986969+00:00",
+        "doctor_name": "Dr. Priya Sharma"
+      }
+    ],
+    "follow_up_answers": {},
+    "ai_summary": "Chief Complaint: i have cold\n\nConversation Details:\n- PATIENT: i have cold\n- AI: I'm sorry to hear you're feeling under the weather with a cold, but I'm here to help you get ready for your visit.\n\nI'm sorry to hear that you're not feeling well. To help me understand a bit better, how many days ago did your cold symptoms start?\n- PATIENT: 10 days\n- AI: Thank you for sharing that, and I know dealing with symptoms for 10 days can feel quite exhausting.\n\nThat's quite a few days to be dealing with a cold, and I'm sure you're ready to feel better. \n\nOn a scale from 1 to 10, with 10 being the most severe you've ever experienced, how would you rate the severity of your symptoms right now?\n- PATIENT: 9\n- AI: It sounds like you're experiencing a really difficult time with these symptoms, and I appreciate you sharing how severe they are. The doctor will definitely want to know this so they can help you feel better soon.\n\nI'm so sorry to hear that your symptoms are feeling that severe at this point—that must be really hard to deal with. \n\nAlong with your cold, are you experiencing any other symptoms, such as a fever, cough, or body aches?\n- PATIENT: fever\n- AI: Thank you for letting me know about the fever, as I know that can make you feel even more worn out when you're already dealing with a tough cold. The doctor will be very glad to have all of these details to help care for you.\n\nI'm so sorry you're dealing with a fever on top of everything else—that can certainly make you feel even more drained. \n\nTo help the doctor get a complete picture, are you currently taking any medications to help manage your symptoms?\n- PATIENT: no\n- AI: Thank you for letting me know you aren't taking any medications right now. The doctor will have all of this helpful information ready to discuss with you.\n\nI'm glad you let me know you aren't taking any medications right now. \n\nDo you have any known allergies to medications or anything else that the doctor should be aware of?\n- PATIENT: no\n- AI: Thank you for letting me know, as that is very helpful information for the doctor to have. I'm getting everything organized for your visit now.\n\nThank you for letting me know you don't have any known allergies. \n\nDo you have any previous medical history, such as any ongoing health conditions, that the doctor should know about?\n- PATIENT: no\n- AI: Thank you for sharing that with me, as it helps the doctor get a clearer picture of your overall health. I am organizing all of these details now so they will be ready for your visit.\n\nThank you for sharing that with me. \n\nDoes anyone in your family have any similar health conditions or anything else that might be relevant for the doctor to know about?\n- PATIENT: no\n- AI: Thank you for sharing that with me, as it helps the doctor understand your family health history better. I have everything organized and ready to share with the doctor when you see them.\n\nThank you for letting me know. \n\nCould you share a little bit about your lifestyle, such as whether you smoke, drink alcohol, or have any specific dietary habits?\n- PATIENT: no\n- AI: Thank you for letting me know, and I appreciate you walking through all of these details with me. I have everything organized and ready so the doctor has a complete picture when you see them.\n\nAre you currently taking any medications or do you have any known allergies?\n- PATIENT: no\n- AI: Thank you for letting me know, and I appreciate you sharing all of this helpful information with me today. Everything is now fully organized so your doctor has a complete picture when you see them.\n\nI have collected all necessary information. Your health summary has been prepared and sent to the doctor for review.\n",
+    "vision_observations": "Image uploaded successfully. Awaiting doctor review.",
+    "uploaded_files": [
+      "/uploads/img_1_images.jpg"
+    ],
+    "doctor_id": 1,
+    "doctor_notes": "sleep\n\n\nsleep\n\n\n📋 PRESCRIPTION ISSUED BY DR. PRIYA SHARMA\n\nDiagnosis: fbsj\n\nPrescribed Medicines:\n• jbjndsjnj — Dose: 90 | Freq: ajjjedjd | Duration: 8 days\n\nSpecial Instructions: nothing\n\n📋 PRESCRIPTION ISSUED BY DR. PRIYA SHARMA\n\nDiagnosis: fbsj\n\nPrescribed Medicines:\n• jbjndsjnj — Dose: 90 | Freq: ajjjedjd | Duration: 8 days\n\nSpecial Instructions: gjgjhjhb",
+    "id": 1,
+    "updated_at": "2026-07-27T21:20:10.988434+00:00",
+    "created_at": "2026-07-27T20:05:59.574702+00:00"
+  },
+  {
+    "patient_id": 1,
+    "status": "assigned",
+    "chief_complaint": "i have cold",
+    "conversation_history": [
+      {
+        "role": "patient",
+        "message": "i have cold",
+        "timestamp": "2026-07-27T20:14:45.784834+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I'm sorry to hear that you're feeling under the weather with a cold, but it's good that you're taking steps to get it checked out.\n\nI'm sorry to hear you're not feeling well. To help me understand a bit better, how many days have you had this cold, and did it start suddenly or gradually?",
+        "timestamp": "2026-07-27T20:14:47.765331+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "10 days",
+        "timestamp": "2026-07-27T20:14:56.446846+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know you've been dealing with these symptoms for 10 days now. I'll make sure to note that down for the doctor so they can better understand how long you've been feeling this way.\n\nI'm sorry to hear that it's been lingering for 10 days. On a scale from 1 to 10, how severe would you say your cold symptoms are right now?",
+        "timestamp": "2026-07-27T20:14:58.886244+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "9",
+        "timestamp": "2026-07-27T20:15:01.750094+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for sharing that, and I'm so sorry to hear your symptoms are feeling that severe after 10 days. I am noting all of this down so the doctor has a clear picture of what you're going through.\n\nIt sounds really tough to deal with a severe cold like that for 10 days. \n\nBesides the cold itself, what other symptoms are you experiencing, such as a fever, cough, or body aches?",
+        "timestamp": "2026-07-27T20:15:03.699656+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "fever",
+        "timestamp": "2026-07-27T20:15:11.311188+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I understand you're dealing with a fever on top of everything else, which can certainly make you feel even more drained. I'm making a note of this for the doctor so they can get a complete picture of how you're feeling.\n\nI'm sorry to hear that you have a fever along with your cold. \n\nAre you currently taking any medications or treatments for your symptoms?",
+        "timestamp": "2026-07-27T20:15:13.644455+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:15:22.359857+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know you aren't taking anything right now, which is very helpful for the doctor to know. I am adding this to your notes so they can plan the best care for you.\n\nI'm glad to know you aren't currently taking any medications. \n\nDo you have any known allergies to medications or anything else?",
+        "timestamp": "2026-07-27T20:15:24.314931+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:15:25.765141+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know you don't have any known allergies, which is very helpful information for your doctor. I am making a note of this to ensure everything is ready for your consultation.\n\nThank you for letting me know you don't have any known allergies, which is very important information for the doctor to have. I'm making a note of that now.\n\nDo you have any previous medical conditions or health issues that the doctor should be aware of?",
+        "timestamp": "2026-07-27T20:15:27.732446+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:15:28.928812+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know, as that helps keep your medical history clear for the doctor. I am adding this to your notes now.\n\nThank you for letting me know you don't have any previous medical conditions, which is helpful for your doctor to know. \n\nIs there any history of similar health issues in your family that you think might be relevant?",
+        "timestamp": "2026-07-27T20:15:31.256105+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:15:32.528734+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know there is no family history of similar issues, which helps me keep your background information clear. I am adding this to your notes now so everything is ready for the doctor.\n\nThank you for sharing that. I am adding it to your notes for the doctor.\n\nTo help the doctor get a complete picture, could you tell me a little bit about your lifestyle factors, such as whether you smoke, drink alcohol, or have any specific dietary habits?",
+        "timestamp": "2026-07-27T20:15:34.741069+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:15:36.255684+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for sharing that information, as it helps give the doctor a clearer picture of your daily routine. I am adding this to your notes now so everything is ready for your visit.\n\nThank you for sharing that information with me. \n\nDo you have any medical reports, test results, or images related to your cold that you would like to share with the doctor?",
+        "timestamp": "2026-07-27T20:15:38.466070+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:15:46.952011+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know. I am adding that to your notes now so everything is all set for your visit with the doctor.\n\nI have collected all necessary information. Your health summary has been prepared and sent to the doctor for review.",
+        "timestamp": "2026-07-27T20:15:51.675344+00:00"
+      }
+    ],
+    "follow_up_answers": {},
+    "ai_summary": "Chief Complaint: i have cold\n\nConversation Details:\n- PATIENT: i have cold\n- AI: I'm sorry to hear that you're feeling under the weather with a cold, but it's good that you're taking steps to get it checked out.\n\nI'm sorry to hear you're not feeling well. To help me understand a bit better, how many days have you had this cold, and did it start suddenly or gradually?\n- PATIENT: 10 days\n- AI: Thank you for letting me know you've been dealing with these symptoms for 10 days now. I'll make sure to note that down for the doctor so they can better understand how long you've been feeling this way.\n\nI'm sorry to hear that it's been lingering for 10 days. On a scale from 1 to 10, how severe would you say your cold symptoms are right now?\n- PATIENT: 9\n- AI: Thank you for sharing that, and I'm so sorry to hear your symptoms are feeling that severe after 10 days. I am noting all of this down so the doctor has a clear picture of what you're going through.\n\nIt sounds really tough to deal with a severe cold like that for 10 days. \n\nBesides the cold itself, what other symptoms are you experiencing, such as a fever, cough, or body aches?\n- PATIENT: fever\n- AI: I understand you're dealing with a fever on top of everything else, which can certainly make you feel even more drained. I'm making a note of this for the doctor so they can get a complete picture of how you're feeling.\n\nI'm sorry to hear that you have a fever along with your cold. \n\nAre you currently taking any medications or treatments for your symptoms?\n- PATIENT: no\n- AI: Thank you for letting me know you aren't taking anything right now, which is very helpful for the doctor to know. I am adding this to your notes so they can plan the best care for you.\n\nI'm glad to know you aren't currently taking any medications. \n\nDo you have any known allergies to medications or anything else?\n- PATIENT: no\n- AI: Thank you for letting me know you don't have any known allergies, which is very helpful information for your doctor. I am making a note of this to ensure everything is ready for your consultation.\n\nThank you for letting me know you don't have any known allergies, which is very important information for the doctor to have. I'm making a note of that now.\n\nDo you have any previous medical conditions or health issues that the doctor should be aware of?\n- PATIENT: no\n- AI: Thank you for letting me know, as that helps keep your medical history clear for the doctor. I am adding this to your notes now.\n\nThank you for letting me know you don't have any previous medical conditions, which is helpful for your doctor to know. \n\nIs there any history of similar health issues in your family that you think might be relevant?\n- PATIENT: no\n- AI: Thank you for letting me know there is no family history of similar issues, which helps me keep your background information clear. I am adding this to your notes now so everything is ready for the doctor.\n\nThank you for sharing that. I am adding it to your notes for the doctor.\n\nTo help the doctor get a complete picture, could you tell me a little bit about your lifestyle factors, such as whether you smoke, drink alcohol, or have any specific dietary habits?\n- PATIENT: no\n- AI: Thank you for sharing that information, as it helps give the doctor a clearer picture of your daily routine. I am adding this to your notes now so everything is ready for your visit.\n\nThank you for sharing that information with me. \n\nDo you have any medical reports, test results, or images related to your cold that you would like to share with the doctor?\n- PATIENT: no\n- AI: Thank you for letting me know. I am adding that to your notes now so everything is all set for your visit with the doctor.\n\nI have collected all necessary information. Your health summary has been prepared and sent to the doctor for review.\n",
+    "vision_observations": null,
+    "uploaded_files": [],
+    "doctor_id": 1,
+    "doctor_notes": null,
+    "id": 2,
+    "updated_at": "2026-07-27T20:15:51.676554+00:00",
+    "created_at": "2026-07-27T20:14:45.777315+00:00"
+  },
+  {
+    "patient_id": 1,
+    "status": "in_progress",
+    "chief_complaint": "Follow-up Chat Session",
+    "conversation_history": [
+      {
+        "role": "ai",
+        "message": "Hello! I am ArogyaMitra AI. This is a new follow-up chat session regarding: 'Follow-up Chat Session'. Please describe your symptoms or updates, and I will share them with your doctor.",
+        "timestamp": "2026-07-27T20:40:45.212267+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "i have fever",
+        "timestamp": "2026-07-27T20:42:44.262801+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I hear that you're dealing with a fever, and I know how uncomfortable and draining that can feel. I am making a note of this right now so your doctor has all the important details for your follow-up.\n\nI'm sorry to hear that you're running a fever. To help me share the right details with your doctor, could you please tell me when the fever started and how long it has been going on?",
+        "timestamp": "2026-07-27T20:42:46.684699+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "10 days",
+        "timestamp": "2026-07-27T20:42:55.706116+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know that you've been dealing with this fever for 10 days now. I am adding this important detail to your notes so your doctor has a clear picture of your timeline.\n\nThank you for letting me know. Having a fever for 10 days can certainly be tiring and concerning. \n\nOn a scale from 1 to 10, how would you rate the severity of your fever right now, and have you noticed any other symptoms along with it (such as a cough, body aches, or chills)?",
+        "timestamp": "2026-07-27T20:42:58.561643+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "9",
+        "timestamp": "2026-07-27T20:43:02.732322+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know it's a 9, and I want you to know that I am noting this high severity down for your doctor right away.\n\nThank you for sharing that. I'm noting a severity rating of 9, and I know how exhausting that must feel. \n\nIn your previous message, I also asked if you had noticed any other symptoms along with the fever (such as a cough, body aches, or chills). Could you let me know if you are experiencing any of those?",
+        "timestamp": "2026-07-27T20:43:04.498807+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "cough",
+        "timestamp": "2026-07-27T20:43:13.602426+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know that you are dealing with a cough along with your fever. I am adding this detail to your notes so your doctor can review it.\n\nThank you for sharing that you have a cough along with your fever. I am adding that to your notes now. \n\nTo help your doctor get a complete picture, are you currently taking any medications for these symptoms?",
+        "timestamp": "2026-07-27T20:43:15.272756+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:43:22.639142+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know that you aren't taking any medications right now. I have noted that down for your doctor to review.\n\nThank you for letting me know that you aren't currently taking any medications. I am adding that to your notes for the doctor. \n\nDo you have any known drug or food allergies that we should make sure the doctor is aware of?",
+        "timestamp": "2026-07-27T20:43:24.687149+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:43:29.563374+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for confirming that you don't have any known allergies. I've noted that down for your doctor so they have all the important details ready.\n\nThank you for letting me know that you don't have any known allergies. I have noted that down for your doctor. \n\nDo you have any previous medical history, such as any long-term health conditions, that the doctor should know about?",
+        "timestamp": "2026-07-27T20:43:31.254767+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:43:36.982555+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know that you don't have any previous medical conditions, and I have noted that down for your doctor.\n\nThank you for letting me know. \n\nDoes anyone in your family have a history of similar health issues or any other major medical conditions?",
+        "timestamp": "2026-07-27T20:43:39.127936+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "jo",
+        "timestamp": "2026-07-27T20:43:41.987664+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for sharing that with me. I have gone ahead and noted that down for your doctor.\n\nIt looks like there might have been a typo. Could you please let me know if anyone in your family has a history of major medical conditions, or if we can move on to your daily lifestyle, such as smoking or diet?",
+        "timestamp": "2026-07-27T20:43:43.511999+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:43:47.558162+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know, and I have noted that down for your doctor.\n\nCould you please share a little bit about your lifestyle, such as whether you smoke, drink alcohol, or have any specific dietary habits?",
+        "timestamp": "2026-07-27T20:43:49.357860+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:43:53.439599+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know, and I have gone ahead and noted that down for your doctor.\n\nThank you for sharing that with me. \n\nDo you have any medical reports, test results, or images related to your visit today that you would like to share with your doctor?",
+        "timestamp": "2026-07-27T20:43:55.384479+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "no",
+        "timestamp": "2026-07-27T20:43:57.612459+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know, and I have noted that down for your doctor as well.\n\nI have collected all necessary information. Your health summary has been prepared and forwarded to your doctor for clinical review.",
+        "timestamp": "2026-07-27T20:43:59.173407+00:00"
+      },
+      {
+        "role": "doctor",
+        "message": "sleep\n",
+        "timestamp": "2026-07-27T20:44:57.562147+00:00",
+        "doctor_name": "Dr. Priya Sharma"
+      },
+      {
+        "role": "doctor",
+        "message": "📋 PRESCRIPTION ISSUED BY DR. PRIYA SHARMA\n\nDiagnosis: fbsj\n\nPrescribed Medicines:\n• jbjndsjnj — Dose: 90 | Freq: ajjjedjd | Duration: 8 days\n\nSpecial Instructions: hsdugdkjh",
+        "timestamp": "2026-07-27T21:20:56.011861+00:00",
+        "doctor_name": "Dr. Priya Sharma"
+      },
+      {
+        "role": "patient",
+        "message": "hi",
+        "timestamp": "2026-07-28T05:54:06.258332+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Hello there! It is so good to hear from you again, and I hope you are doing well today.\n\nI have collected all necessary information. Your health summary has been prepared and forwarded to your doctor for clinical review.",
+        "timestamp": "2026-07-28T05:54:08.906947+00:00"
+      }
+    ],
+    "follow_up_answers": {},
+    "ai_summary": "Chief Complaint: Follow-up Chat Session\n\nConversation Details:\n- AI: Hello! I am ArogyaMitra AI. This is a new follow-up chat session regarding: 'Follow-up Chat Session'. Please describe your symptoms or updates, and I will share them with your doctor.\n- PATIENT: i have fever\n- AI: I hear that you're dealing with a fever, and I know how uncomfortable and draining that can feel. I am making a note of this right now so your doctor has all the important details for your follow-up.\n\nI'm sorry to hear that you're running a fever. To help me share the right details with your doctor, could you please tell me when the fever started and how long it has been going on?\n- PATIENT: 10 days\n- AI: Thank you for letting me know that you've been dealing with this fever for 10 days now. I am adding this important detail to your notes so your doctor has a clear picture of your timeline.\n\nThank you for letting me know. Having a fever for 10 days can certainly be tiring and concerning. \n\nOn a scale from 1 to 10, how would you rate the severity of your fever right now, and have you noticed any other symptoms along with it (such as a cough, body aches, or chills)?\n- PATIENT: 9\n- AI: Thank you for letting me know it's a 9, and I want you to know that I am noting this high severity down for your doctor right away.\n\nThank you for sharing that. I'm noting a severity rating of 9, and I know how exhausting that must feel. \n\nIn your previous message, I also asked if you had noticed any other symptoms along with the fever (such as a cough, body aches, or chills). Could you let me know if you are experiencing any of those?\n- PATIENT: cough\n- AI: Thank you for letting me know that you are dealing with a cough along with your fever. I am adding this detail to your notes so your doctor can review it.\n\nThank you for sharing that you have a cough along with your fever. I am adding that to your notes now. \n\nTo help your doctor get a complete picture, are you currently taking any medications for these symptoms?\n- PATIENT: no\n- AI: Thank you for letting me know that you aren't taking any medications right now. I have noted that down for your doctor to review.\n\nThank you for letting me know that you aren't currently taking any medications. I am adding that to your notes for the doctor. \n\nDo you have any known drug or food allergies that we should make sure the doctor is aware of?\n- PATIENT: no\n- AI: Thank you for confirming that you don't have any known allergies. I've noted that down for your doctor so they have all the important details ready.\n\nThank you for letting me know that you don't have any known allergies. I have noted that down for your doctor. \n\nDo you have any previous medical history, such as any long-term health conditions, that the doctor should know about?\n- PATIENT: no\n- AI: Thank you for letting me know that you don't have any previous medical conditions, and I have noted that down for your doctor.\n\nThank you for letting me know. \n\nDoes anyone in your family have a history of similar health issues or any other major medical conditions?\n- PATIENT: jo\n- AI: Thank you for sharing that with me. I have gone ahead and noted that down for your doctor.\n\nIt looks like there might have been a typo. Could you please let me know if anyone in your family has a history of major medical conditions, or if we can move on to your daily lifestyle, such as smoking or diet?\n- PATIENT: no\n- AI: Thank you for letting me know, and I have noted that down for your doctor.\n\nCould you please share a little bit about your lifestyle, such as whether you smoke, drink alcohol, or have any specific dietary habits?\n- PATIENT: no\n- AI: Thank you for letting me know, and I have gone ahead and noted that down for your doctor.\n\nThank you for sharing that with me. \n\nDo you have any medical reports, test results, or images related to your visit today that you would like to share with your doctor?\n- PATIENT: no\n- AI: Thank you for letting me know, and I have noted that down for your doctor as well.\n\nI have collected all necessary information. Your health summary has been prepared and forwarded to your doctor for clinical review.\n- DOCTOR (Dr. Priya Sharma): sleep\n\n- DOCTOR (Dr. Priya Sharma): 📋 PRESCRIPTION ISSUED BY DR. PRIYA SHARMA\n\nDiagnosis: fbsj\n\nPrescribed Medicines:\n• jbjndsjnj — Dose: 90 | Freq: ajjjedjd | Duration: 8 days\n\nSpecial Instructions: hsdugdkjh\n- PATIENT: hi\n- AI: Hello there! It is so good to hear from you again, and I hope you are doing well today.\n\nI have collected all necessary information. Your health summary has been prepared and forwarded to your doctor for clinical review.\n",
+    "vision_observations": null,
+    "uploaded_files": [],
+    "doctor_id": 1,
+    "doctor_notes": "sleep\n\n\n📋 PRESCRIPTION ISSUED BY DR. PRIYA SHARMA\n\nDiagnosis: fbsj\n\nPrescribed Medicines:\n• jbjndsjnj — Dose: 90 | Freq: ajjjedjd | Duration: 8 days\n\nSpecial Instructions: hsdugdkjh",
+    "id": 3,
+    "updated_at": "2026-07-28T05:54:08.908401+00:00",
+    "created_at": "2026-07-27T20:40:45.213286+00:00"
+  },
+  {
+    "patient_id": 1,
+    "status": "in_progress",
+    "chief_complaint": "Follow-up Chat Session",
+    "conversation_history": [
+      {
+        "role": "ai",
+        "message": "Hello! I am ArogyaMitra AI. This is a new follow-up chat session regarding: 'Follow-up Chat Session'. Please describe your symptoms or updates, and I will share them with your doctor.",
+        "timestamp": "2026-07-27T20:42:33.948984+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "Hi",
+        "timestamp": "2026-07-27T23:36:45.612928+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Hello! It's so nice to connect with you today. I'm here to listen and help you share your updates with your doctor.\n\nHello! It's nice to chat with you today. To help me share the best information with your doctor, could you please tell me a little bit about what brings you in, or how you've been feeling since your last visit?",
+        "timestamp": "2026-07-27T23:36:48.851950+00:00"
+      },
+      {
+        "role": "doctor",
+        "message": "Doctor called the consultation.",
+        "timestamp": "2026-07-28T00:33:38.174059+00:00",
+        "doctor_name": "Dr. Priya Sharma"
+      },
+      {
+        "role": "doctor",
+        "message": "Doctor called the consultation.",
+        "timestamp": "2026-07-28T00:33:41.268660+00:00",
+        "doctor_name": "Dr. Priya Sharma"
+      }
+    ],
+    "follow_up_answers": {},
+    "ai_summary": "Chief Complaint: Follow-up Chat Session\n\nConversation Details:\n- AI: Hello! I am ArogyaMitra AI. This is a new follow-up chat session regarding: 'Follow-up Chat Session'. Please describe your symptoms or updates, and I will share them with your doctor.\n- PATIENT: Hi\n- AI: Hello! It's so nice to connect with you today. I'm here to listen and help you share your updates with your doctor.\n\nHello! It's nice to chat with you today. To help me share the best information with your doctor, could you please tell me a little bit about what brings you in, or how you've been feeling since your last visit?\n",
+    "vision_observations": null,
+    "uploaded_files": [],
+    "doctor_id": 1,
+    "doctor_notes": "Doctor called the consultation.\n\nDoctor called the consultation.",
+    "id": 4,
+    "updated_at": "2026-07-28T00:33:41.274244+00:00",
+    "created_at": "2026-07-27T20:42:33.950057+00:00"
+  },
+  {
+    "patient_id": 1,
+    "status": "in_progress",
+    "chief_complaint": "Follow-up Chat Session",
+    "conversation_history": [
+      {
+        "role": "ai",
+        "message": "Hello! I am ArogyaMitra AI. This is a new follow-up chat session regarding: 'Follow-up Chat Session'. Please describe your symptoms or updates, and I will share them with your doctor.",
+        "timestamp": "2026-07-28T02:03:48.595175+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "i have fever",
+        "timestamp": "2026-07-28T02:04:21.204715+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I'm sorry to hear that you're running a fever, but I'm glad you're reaching out so we can share this update with your doctor.\n\nI'm sorry to hear that you're running a fever. To help your doctor understand what's going on, could you tell me when this fever started and how long it has been going on?",
+        "timestamp": "2026-07-28T02:04:23.762254+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "I have a fever",
+        "timestamp": "2026-07-28T02:05:11.161042+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I understand, and it can certainly feel draining to keep dealing with a persistent fever. We'll make sure to note this down for your doctor so they can help you feel better soon.\n\nI understand you're dealing with a fever. Could you let me know when it first started and how long it has been going on?",
+        "timestamp": "2026-07-28T02:05:13.671322+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "I have fever",
+        "timestamp": "2026-07-28T04:55:59.142533+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I completely understand, dealing with a fever can certainly take a lot out of you. We'll make sure to note this down so your doctor has all the details for your visit.\n\nI hear you, and it can be really tiring to keep dealing with that. \n\nTo make sure your doctor has all the details, could you tell me roughly how high the fever has been, or rate its severity on a scale from 1 to 10?",
+        "timestamp": "2026-07-28T04:56:01.501892+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "-1",
+        "timestamp": "2026-07-28T04:56:45.247833+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for sharing that with me. I appreciate you sticking with this and helping us gather the right details for your visit.\n\nIt sounds like you might be having a difficult time, and I want to make sure we get all the helpful details ready for your doctor. \n\nAlong with the fever, are you experiencing any other symptoms, like a cough, body aches, or chills?",
+        "timestamp": "2026-07-28T04:56:47.430669+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "I have something",
+        "timestamp": "2026-07-28T06:11:06.075094+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for letting me know, and I'm right here with you to help sort this out for your doctor.\n\nI understand, it sounds a bit vague, but we want to make sure your doctor has a complete picture. \n\nCould you tell me what medications you are currently taking, if any?",
+        "timestamp": "2026-07-28T06:11:08.574857+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "narcotics",
+        "timestamp": "2026-07-28T06:11:33.562807+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Thank you for sharing that with me, as it's very helpful information for your doctor to know. I appreciate your openness, and I'm making a note of this for your upcoming visit.\n\nThank you for sharing that. \n\nDo you have any known allergies to medications or other substances that your doctor should be aware of?",
+        "timestamp": "2026-07-28T06:11:36.115226+00:00"
+      }
+    ],
+    "follow_up_answers": {},
+    "ai_summary": "Chief Complaint: Follow-up Chat Session\n\nConversation Details:\n- AI: Hello! I am ArogyaMitra AI. This is a new follow-up chat session regarding: 'Follow-up Chat Session'. Please describe your symptoms or updates, and I will share them with your doctor.\n- PATIENT: i have fever\n- AI: I'm sorry to hear that you're running a fever, but I'm glad you're reaching out so we can share this update with your doctor.\n\nI'm sorry to hear that you're running a fever. To help your doctor understand what's going on, could you tell me when this fever started and how long it has been going on?\n- PATIENT: I have a fever\n- AI: I understand, and it can certainly feel draining to keep dealing with a persistent fever. We'll make sure to note this down for your doctor so they can help you feel better soon.\n\nI understand you're dealing with a fever. Could you let me know when it first started and how long it has been going on?\n- PATIENT: I have fever\n- AI: I completely understand, dealing with a fever can certainly take a lot out of you. We'll make sure to note this down so your doctor has all the details for your visit.\n\nI hear you, and it can be really tiring to keep dealing with that. \n\nTo make sure your doctor has all the details, could you tell me roughly how high the fever has been, or rate its severity on a scale from 1 to 10?\n- PATIENT: -1\n- AI: Thank you for sharing that with me. I appreciate you sticking with this and helping us gather the right details for your visit.\n\nIt sounds like you might be having a difficult time, and I want to make sure we get all the helpful details ready for your doctor. \n\nAlong with the fever, are you experiencing any other symptoms, like a cough, body aches, or chills?\n- PATIENT: I have something\n- AI: Thank you for letting me know, and I'm right here with you to help sort this out for your doctor.\n\nI understand, it sounds a bit vague, but we want to make sure your doctor has a complete picture. \n\nCould you tell me what medications you are currently taking, if any?\n- PATIENT: narcotics\n- AI: Thank you for sharing that with me, as it's very helpful information for your doctor to know. I appreciate your openness, and I'm making a note of this for your upcoming visit.\n\nThank you for sharing that. \n\nDo you have any known allergies to medications or other substances that your doctor should be aware of?\n",
+    "vision_observations": null,
+    "uploaded_files": [],
+    "doctor_id": 1,
+    "doctor_notes": null,
+    "id": 5,
+    "updated_at": "2026-07-28T06:11:36.119921+00:00",
+    "created_at": "2026-07-28T02:03:48.619530+00:00"
+  },
+  {
+    "patient_id": 3,
+    "status": "in_progress",
+    "chief_complaint": "inner health",
+    "conversation_history": [
+      {
+        "role": "patient",
+        "message": "inner health",
+        "timestamp": "2026-07-28T03:51:55.960047+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "It is completely understandable to want to focus on your overall inner health and well-being. Taking this time to check in with yourself is a wonderful first step toward feeling your best.\n\nI understand you're focusing on your inner health, and it's great that you're taking steps to care for yourself. \n\nCould you tell me a little bit more about what specific changes or symptoms you've been noticing, and when they first started?",
+        "timestamp": "2026-07-28T03:51:58.914769+00:00"
+      }
+    ],
+    "follow_up_answers": {},
+    "ai_summary": "Chief Complaint: inner health\n\nConversation Details:\n- PATIENT: inner health\n- AI: It is completely understandable to want to focus on your overall inner health and well-being. Taking this time to check in with yourself is a wonderful first step toward feeling your best.\n\nI understand you're focusing on your inner health, and it's great that you're taking steps to care for yourself. \n\nCould you tell me a little bit more about what specific changes or symptoms you've been noticing, and when they first started?\n",
+    "vision_observations": null,
+    "uploaded_files": [],
+    "doctor_id": 1,
+    "doctor_notes": null,
+    "id": 6,
+    "updated_at": "2026-07-28T03:51:58.916086+00:00",
+    "created_at": "2026-07-28T03:51:55.953974+00:00"
+  },
+  {
+    "patient_id": 4,
+    "status": "in_progress",
+    "chief_complaint": "I have fever",
+    "conversation_history": [
+      {
+        "role": "patient",
+        "message": "I have fever",
+        "timestamp": "2026-07-28T04:54:41.021911+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I'm sorry to hear that you're running a fever, as that can certainly feel uncomfortable and draining. I am here to help gather a few details so your doctor can get a clearer picture before your consultation.\n\nI'm sorry to hear that you're running a fever; that can certainly feel draining. \n\nTo help me understand a bit better, could you tell me when this fever started and how long it has been going on?",
+        "timestamp": "2026-07-28T04:54:43.406697+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "you are not working correctly",
+        "timestamp": "2026-07-28T05:00:42.196785+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I am so sorry for any frustration or confusion I caused you just now. Let's take things at a slower pace so I can support you properly.\n\nI apologize for any frustration! Let's get this right. Could you tell me when your fever first started and how long it has been going on?",
+        "timestamp": "2026-07-28T05:00:44.413152+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "problems",
+        "timestamp": "2026-07-28T05:01:21.503338+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I completely understand that dealing with health issues can feel really overwhelming, and I'm here to listen. Please take all the time you need.\n\nI am so sorry you are dealing with multiple problems right now. \n\nTo help me pass along the most accurate information to your doctor, could you tell me a little bit more about when your fever first started?",
+        "timestamp": "2026-07-28T05:01:24.663864+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "I have read a bit of chest pain from yesterday",
+        "timestamp": "2026-07-28T05:01:52.993206+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "I am so sorry you are experiencing chest pain along with your fever, as that must feel quite concerning. Thank you for sharing that important detail with me so I can make sure the doctor has the full picture.\n\nI'm sorry to hear you're experiencing chest pain along with your fever; that must be very concerning. \n\nOn a scale from 1 to 10, with 10 being the most severe, how would you rate your chest pain right now?",
+        "timestamp": "2026-07-28T05:01:55.518780+00:00"
+      },
+      {
+        "role": "patient",
+        "message": "I would like my chest pain 10 out of 10 but I don't like to hear sorry ok",
+        "timestamp": "2026-07-28T05:02:30.342738+00:00"
+      },
+      {
+        "role": "ai",
+        "message": "Understood, I will keep that in mind and skip the apologies moving forward. Thank you for letting me know how you are feeling, and for sharing that your chest pain is a 10 out of 10.\n\nUnderstood, I will keep that in mind. Are you experiencing any other symptoms along with your fever and chest pain, such as shortness of breath, dizziness, or sweating?",
+        "timestamp": "2026-07-28T05:02:32.438557+00:00"
+      }
+    ],
+    "follow_up_answers": {},
+    "ai_summary": "Chief Complaint: I have fever\n\nConversation Details:\n- PATIENT: I have fever\n- AI: I'm sorry to hear that you're running a fever, as that can certainly feel uncomfortable and draining. I am here to help gather a few details so your doctor can get a clearer picture before your consultation.\n\nI'm sorry to hear that you're running a fever; that can certainly feel draining. \n\nTo help me understand a bit better, could you tell me when this fever started and how long it has been going on?\n- PATIENT: you are not working correctly\n- AI: I am so sorry for any frustration or confusion I caused you just now. Let's take things at a slower pace so I can support you properly.\n\nI apologize for any frustration! Let's get this right. Could you tell me when your fever first started and how long it has been going on?\n- PATIENT: problems\n- AI: I completely understand that dealing with health issues can feel really overwhelming, and I'm here to listen. Please take all the time you need.\n\nI am so sorry you are dealing with multiple problems right now. \n\nTo help me pass along the most accurate information to your doctor, could you tell me a little bit more about when your fever first started?\n- PATIENT: I have read a bit of chest pain from yesterday\n- AI: I am so sorry you are experiencing chest pain along with your fever, as that must feel quite concerning. Thank you for sharing that important detail with me so I can make sure the doctor has the full picture.\n\nI'm sorry to hear you're experiencing chest pain along with your fever; that must be very concerning. \n\nOn a scale from 1 to 10, with 10 being the most severe, how would you rate your chest pain right now?\n- PATIENT: I would like my chest pain 10 out of 10 but I don't like to hear sorry ok\n- AI: Understood, I will keep that in mind and skip the apologies moving forward. Thank you for letting me know how you are feeling, and for sharing that your chest pain is a 10 out of 10.\n\nUnderstood, I will keep that in mind. Are you experiencing any other symptoms along with your fever and chest pain, such as shortness of breath, dizziness, or sweating?\n",
+    "vision_observations": null,
+    "uploaded_files": [],
+    "doctor_id": 1,
+    "doctor_notes": null,
+    "id": 7,
+    "updated_at": "2026-07-28T05:02:32.440490+00:00",
+    "created_at": "2026-07-28T04:54:41.010704+00:00"
+  },
+  {
+    "patient_id": 1,
+    "status": "assigned",
+    "chief_complaint": "Follow-up Chat Session",
+    "conversation_history": [
+      {
+        "role": "ai",
+        "message": "Hello! I am ArogyaMitra AI. This is a new follow-up chat session regarding: 'Follow-up Chat Session'. Please describe your symptoms or updates, and I will share them with your doctor.",
+        "timestamp": "2026-07-28T06:32:14.560262+00:00"
+      }
+    ],
+    "follow_up_answers": {},
+    "ai_summary": "Follow-up consultation created: Follow-up Chat Session",
+    "vision_observations": null,
+    "uploaded_files": [],
+    "doctor_id": 1,
+    "doctor_notes": null,
+    "id": 8,
+    "updated_at": "2026-07-28T06:32:14.564137+00:00",
+    "created_at": "2026-07-28T06:32:14.564137+00:00"
+  }
+]
