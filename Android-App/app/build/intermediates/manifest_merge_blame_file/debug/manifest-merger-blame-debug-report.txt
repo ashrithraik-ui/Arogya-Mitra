@@ -1,0 +1,169 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.arogyamitra.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Permissions -->
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:42:5-67
+13-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:42:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:43:5-79
+14-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:43:22-76
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:44:5-71
+15-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:44:22-68
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:45:5-65
+16-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:45:22-62
+17
+18    <permission
+18-->[androidx.core:core:1.13.0] C:\Users\yojan\.gradle\caches\transforms-4\153526707c1228ebf647657eb110dd20\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.arogyamitra.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.13.0] C:\Users\yojan\.gradle\caches\transforms-4\153526707c1228ebf647657eb110dd20\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.13.0] C:\Users\yojan\.gradle\caches\transforms-4\153526707c1228ebf647657eb110dd20\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.arogyamitra.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.13.0] C:\Users\yojan\.gradle\caches\transforms-4\153526707c1228ebf647657eb110dd20\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.13.0] C:\Users\yojan\.gradle\caches\transforms-4\153526707c1228ebf647657eb110dd20\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:4:5-38:19
+25        android:allowBackup="true"
+25-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:5:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.13.0] C:\Users\yojan\.gradle\caches\transforms-4\153526707c1228ebf647657eb110dd20\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:6:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:7:9-41
+31        android:networkSecurityConfig="@xml/network_security_config"
+31-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:11:9-69
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:8:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:9:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme"
+35-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:12:9-40
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:10:9-44
+37        <activity
+37-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:14:9-27:20
+38            android:name="com.arogyamitra.app.MainActivity"
+38-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:16:13-41
+39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation|density"
+39-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:15:13-148
+40            android:exported="true"
+40-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:20:13-36
+41            android:label="@string/title_activity_main"
+41-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:17:13-56
+42            android:launchMode="singleTask"
+42-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:19:13-44
+43            android:theme="@style/AppTheme.NoActionBarLaunch" >
+43-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:18:13-62
+44            <intent-filter>
+44-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:22:13-25:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:23:17-69
+45-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:23:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:24:17-77
+47-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:24:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+52            android:name="androidx.core.content.FileProvider"
+52-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:30:13-62
+53            android:authorities="com.arogyamitra.app.fileprovider"
+53-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:31:13-64
+54            android:exported="false"
+54-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:32:13-37
+55            android:grantUriPermissions="true" >
+55-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:33:13-47
+56            <meta-data
+56-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:34:13-36:64
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:35:17-67
+58                android:resource="@xml/file_paths" />
+58-->C:\Users\yojan\OneDrive\Desktop\Hackathon\MCE Hackathon\android-app\app\src\main\AndroidManifest.xml:36:17-51
+59        </provider>
+60        <provider
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yojan\.gradle\caches\transforms-4\67dc6e29aa88dc55a841cd0a3704761d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yojan\.gradle\caches\transforms-4\67dc6e29aa88dc55a841cd0a3704761d\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+62            android:authorities="com.arogyamitra.app.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yojan\.gradle\caches\transforms-4\67dc6e29aa88dc55a841cd0a3704761d\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yojan\.gradle\caches\transforms-4\67dc6e29aa88dc55a841cd0a3704761d\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yojan\.gradle\caches\transforms-4\67dc6e29aa88dc55a841cd0a3704761d\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yojan\.gradle\caches\transforms-4\67dc6e29aa88dc55a841cd0a3704761d\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\yojan\.gradle\caches\transforms-4\67dc6e29aa88dc55a841cd0a3704761d\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\yojan\.gradle\caches\transforms-4\63cf8a72a60fe57bfa58d3011d410958\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\yojan\.gradle\caches\transforms-4\63cf8a72a60fe57bfa58d3011d410958\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\yojan\.gradle\caches\transforms-4\63cf8a72a60fe57bfa58d3011d410958\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+72                android:value="androidx.startup" />
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+73        </provider>
+74
+75        <receiver
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+77            android:directBootAware="false"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+78            android:enabled="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+79            android:exported="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+80            android:permission="android.permission.DUMP" >
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\yojan\.gradle\caches\transforms-4\16bb77aaadf8e6c594b5c927b677e0e2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+92            </intent-filter>
+93        </receiver>
+94    </application>
+95
+96</manifest>
